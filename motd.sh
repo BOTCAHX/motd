@@ -1,13 +1,13 @@
 #!/bin/bash
-clear
-chsh -s $(which zsh)
-if [ ! -d "$HOME/.oh-my-zsh" ]; then
+#clear
+#chsh -s $(which zsh)
+#if [ ! -d "$HOME/.oh-my-zsh" ]; then
     # Install Oh My Zsh if not installed
-    yes '' | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" > /dev/null 2>&1 && sed -i 's/ZSH_THEME=".*"/ZSH_THEME="duellj"/' ~/.zshrc && source ~/.zshrc 
-    sed -i 's/ZSH_THEME=".*"/ZSH_THEME="duellj"/' ~/.zshrc
-    source ~/.zshrc
-    sudo su
-fi
+#    yes '' | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" > /dev/null 2>&1 && sed -i 's/ZSH_THEME=".*"/ZSH_THEME="duellj"/' ~/.zshrc && source ~/.zshrc 
+#    sed -i 's/ZSH_THEME=".*"/ZSH_THEME="duellj"/' ~/.zshrc
+#    source ~/.zshrc
+#    sudo su
+#fi
 
 BIN_DATE='/bin/date'
 BIN_FIGLET='/usr/bin/figlet'
@@ -36,7 +36,7 @@ COLOR_RED='\033[0;31m'
 COLOR_WHITE='\033[1;37m'
 COLOR_DEFAULT='\033[0m'
 echo -e "
-${COLOR_LIGHT_GREEN}$(${BIN_FIGLET} -f smblock "BTCH VPS")
+${COLOR_LIGHT_GREEN}$(${BIN_FIGLET} -f smblock "BYTESHARE")
 ${COLOR_WHITE}Date and time             = ${COLOR_LIGHT_BLUE}$(${BIN_DATE})
 ${COLOR_WHITE}Hostname                  = ${COLOR_LIGHT_BLUE}$(${BIN_HOSTNAME})
 ${COLOR_WHITE}Global IP Addresses       = ${COLOR_LIGHT_BLUE}$(${BIN_IP})
@@ -51,12 +51,13 @@ ${COLOR_WHITE}Disk(/)        Used/Total = ${COLOR_LIGHT_BLUE}$(${BIN_DF} -h / | 
 ${COLOR_DEFAULT}
 ===========[ ${COLOR_LIGHT_BLUE}Terms of Service${COLOR_DEFAULT} ]===============
 ${COLOR_RED}✘ DILARANG MINING
+${COLOR_RED}✘ DILARANG UNTUK DIPAKAI DDOS
 ${COLOR_RED}✘ DILARANG DIJADIKAN SERVER VPN
 ${COLOR_RED}✘ DILARANG UNTUK MENGGUNAKAN KEGIATAN ILLEGAL 
 ${COLOR_RED}✘ DILARANG UNTUK BRUTE FORCE
 ${COLOR_RED}✘ And other illegal activities...${COLOR_DEFAULT}
 ==============================================
-${COLOR_WHITE}Jangan lupa follow ${COLOR_RED}@prm2.0 ${COLOR_WHITE}yaaa... arigatou and enjoyy your vps~~
+${COLOR_WHITE}Jangan Lupa Join Channel Kami ${COLOR_RED}https://bit.ly/3Sv66tG
 ${COLOR_DEFAULT}"
 
 unset BIN_DATE BIN_FIGLET BIN_HOSTNAME BIN_IP BIN_GREP BIN_SED BIN_UPTIME BIN_CAT BIN_LSB_RELEASE BIN_UNAME BIN_FREE BIN_HEAD BIN_TAIL BIN_DF BIN_AWK BIN_BC BIN_PS
