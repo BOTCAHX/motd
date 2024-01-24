@@ -36,7 +36,7 @@ COLOR_RED='\033[0;31m'
 COLOR_WHITE='\033[1;37m'
 COLOR_DEFAULT='\033[0m'
 echo -e "
-${COLOR_LIGHT_GREEN}$(${BIN_FIGLET} -f smblock "NextSekai VPS")
+${COLOR_LIGHT_GREEN}$(${BIN_FIGLET} -f smblock "BTCH VPS")
 ${COLOR_WHITE}Date and time             = ${COLOR_LIGHT_BLUE}$(${BIN_DATE})
 ${COLOR_WHITE}Hostname                  = ${COLOR_LIGHT_BLUE}$(${BIN_HOSTNAME})
 ${COLOR_WHITE}Global IP Addresses       = ${COLOR_LIGHT_BLUE}$(${BIN_IP})
@@ -56,7 +56,7 @@ ${COLOR_RED}✘ DILARANG UNTUK MENGGUNAKAN KEGIATAN ILLEGAL
 ${COLOR_RED}✘ DILARANG UNTUK BRUTE FORCE
 ${COLOR_RED}✘ And other illegal activities...${COLOR_DEFAULT}
 ==============================================
-${COLOR_WHITE}Jangan lupa follow ${COLOR_RED}@ditzzsxz_ ${COLOR_WHITE}yaaa... arigatou and enjoyy your vps~~
+${COLOR_WHITE}Jangan lupa follow ${COLOR_RED}@prm2.0 ${COLOR_WHITE}yaaa... arigatou and enjoyy your vps~~
 ${COLOR_DEFAULT}"
 
 unset BIN_DATE BIN_FIGLET BIN_HOSTNAME BIN_IP BIN_GREP BIN_SED BIN_UPTIME BIN_CAT BIN_LSB_RELEASE BIN_UNAME BIN_FREE BIN_HEAD BIN_TAIL BIN_DF BIN_AWK BIN_BC BIN_PS
